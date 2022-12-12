@@ -1,0 +1,43 @@
+.header__Main{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+   
+}
+
+.header__Main input{
+    padding: 7px;
+    border-radius: 5px;
+    border:2px solid white;
+}
+
+.Header__Logo{
+}
+.youtube__Logo{
+    color: blue;
+    font-size: 60px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.home__Single__Section{
+    background-color: gray;
+}
+
+.home__Single__Section__Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100%; */
+}
+
+.home__Single__Section__Text h1{   
+   margin-bottom: 30px;
+}

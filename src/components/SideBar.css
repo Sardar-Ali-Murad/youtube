@@ -1,0 +1,109 @@
+.sidebar__Main{
+    background-color: black;
+    color: wheat;
+    width: 200px;
+    height: 88vh;
+    /* position: absolute; */
+    position: sticky;
+    top: 70px;
+    bottom: 0;
+    /* margin-top: 50px;
+     */
+     overflow-y: scroll;
+     /* display: none; */
+}
+
+.sidebar__Sections{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.sidebar__Sections h1{
+    color:red
+}
+
+.sidebar__Sections:hover{
+    background:gray;
+    cursor: pointer;
+}
+
+.sidebar__Main__Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background: red; */
+    /* height: 100%; */
+}
+
+.small__Sidebar{
+    display: none;
+}
+
+.small__Sidebar__Transparent__Layout{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0,.6);
+    z-index: 10;
+}
+
+.small__Sidebar__Middle__Section{
+    position: fixed;
+    top: 0;
+    left: -4%;
+    height: 90vh;
+    margin:50px;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    z-index: 20;
+    background-color: white;
+    color: black;
+}
+
+.ham{
+    cursor: pointer;
+    position: absolute;
+     color: white; 
+    left: 160px; 
+     font-size: 30px; 
+     top: -4px;
+     cursor: pointer;
+    
+}
+
+.small__Sidebar__Middle__Section{
+    overflow-y: scroll;
+}
+
+
+
+.close{
+     cursor: pointer; 
+     left: 20px; 
+     /* position: absolute;  */
+     /* background-color: red;  */
+     margin-left: 40px; 
+
+} 
+
+.sidebar__Sections{
+    display: flex;
+    align-items: center;
+}
+
+
+.ActiveButton{
+    background-color: gray;
+}
+
+@media screen and (max-width:750px){
+    .sidebar__Main{
+        display: none;
+    }
+    .small__Sidebar{
+        display: block;
+    }
+}

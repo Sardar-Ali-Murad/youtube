@@ -1,0 +1,10 @@
+.channel__Vedios{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(14rem,1fr));
+    gap:10px;
+}
+
+.channel__Details{
+    text-align: center;
+    margin: 40px 0px;
+}
